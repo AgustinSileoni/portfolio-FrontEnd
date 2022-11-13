@@ -1,0 +1,112 @@
+.navbar-me{
+    background-color: black;
+}
+.logo{
+    width: 5%;
+    border-radius: 100px;
+}
+.primer-link{
+    margin-left: 44%;
+}
+.links{
+    color: white;
+    border-color: black;
+}
+.body-me{
+    background-color: #545454;
+}
+.links:hover{
+    background-color: white;
+    color:black;
+    border-color: white;
+}
+.titulo-nombre{
+    color: white;
+    font-family:"Agit Prop" ;
+    font-size: 5em;
+}
+@font-face {
+    font-family: 'Agit Prop';
+    src: url('fonts/AGITPM__.TTF') format(truetype);
+}
+.article-wrapper{
+    height: 15em;
+}
+
+
+.clickable-card {
+    display: block;
+    max-width: 80%;
+    margin-inline: auto;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: none;
+    background: #fff;
+    transform-origin: center center;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .clickable-card h2,
+  .clickable-card .read-more {
+    transition: color 0.4s ease-in-out;
+  }
+  
+  .clickable-card img {
+    transform-origin: center;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  .clickable-card:hover .read-more,
+  .clickable-card:focus .read-more,
+  .clickable-card:hover h2,
+  .clickable-card:focus h2 {
+    color: #28666e;
+  }
+  
+  .clickable-card:hover img,
+  .clickable-card:focus img {
+    transform: scale(1.1);
+  }
+  
+  .article-body {
+    padding: 0px;
+  }
+  
+  .clickable-card h2 {
+    margin: 0 0 18px 0;
+    font-family: "Agit Prop", cursive;
+    font-size: 2rem;
+    letter-spacing: 0.06em;
+    transition: color 0.3s ease-out;
+  }
+  
+ a img {
+    max-width: 100%;
+  }
+  
+  figure {
+    margin: 0;
+    padding: 0;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+  }
+  
+  /************************
+  Generic layout 
+  **************************/
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Arial", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    background-image: linear-gradient(45deg, #111);
+    min-height: 100vh;
+  }
