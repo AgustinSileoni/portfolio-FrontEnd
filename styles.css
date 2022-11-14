@@ -2,11 +2,11 @@
     border-radius: 2em;
     height: 1.7em;
 }
-.navbar-me{
-  margin-right: 25%;
-}
 .no-space-padding{
   padding: 0!important;
+}
+.centro{
+  margin-right: 30vw;
 }
 .links{
     color: white;
