@@ -1,11 +1,12 @@
 .logo{
-    border-radius: 2vw;
-    width: 6vw;
-    height: 3vw;
+    border-radius: 2em;
+    height: 1.7em;
 }
 .navbar-me{
-  padding: 0;
-  margin: 0;
+  margin-right: 25%;
+}
+.no-space-padding{
+  padding: 0!important;
 }
 .links{
     color: white;
@@ -112,3 +113,4 @@ a img{
     background-image: linear-gradient(45deg, #111);
     min-height: 100vh
   }
+
