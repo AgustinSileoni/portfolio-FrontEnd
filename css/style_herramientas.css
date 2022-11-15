@@ -26,7 +26,7 @@
 }
 @font-face {
     font-family: 'Agit Prop';
-    src: url('fonts/AGITPM__.TTF') format(truetype);
+    src: url('/fonts/AGITPM__.TTF') format(truetype);
 }
 .description{
   font-size: 4vw;
@@ -115,5 +115,15 @@ a img{
     line-height: 1.6rem;
     background-image: linear-gradient(45deg, #111);
     min-height: 100vh
+  }
+
+  #imagen_bootstrap{
+    padding: 2vw 5vw 1vw 5vw;
+  }
+  #imagen_css{
+    padding: 2vw 7vw 1vw 7vw;
+  }
+  #imagen_html{
+    padding: 1.6vw 6vw 1vw 6vw;
   }
 
